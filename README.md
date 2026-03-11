@@ -23,8 +23,6 @@ Welcome to the comprehensive collection of AWS hands-on labs. This master reposi
 
 # AWS Identity and Access Management (IAM) Labs (LocalStack Pro)
 
-![AWS](https://img.shields.io/badge/AWS-IAM_Security-FF9900?style=for-the-badge&logo=amazonaws)
-![LocalStack](https://img.shields.io/badge/LocalStack-Pro-000000?style=for-the-badge)
 
 This repository contains hands-on labs demonstrating advanced AWS Identity and Access Management (IAM) security concepts. Using [LocalStack Pro](https://localstack.cloud/), we simulate a localized AWS cloud environment to practice identity federation, policy evaluation logic, conditional access, and cross-account role assumption without risking real-world cloud environments.
 
@@ -79,8 +77,6 @@ Based on AWS security best practices (SAA-C03), these labs demonstrate:
 
 # AWS Advanced VPC Architecture Labs (LocalStack Pro)
 
-![AWS](https://img.shields.io/badge/AWS-VPC_Architecture-FF9900?style=for-the-badge&logo=amazonaws)
-![LocalStack](https://img.shields.io/badge/LocalStack-Pro-000000?style=for-the-badge)
 
 This repository contains a comprehensive set of hands-on labs demonstrating advanced Amazon Virtual Private Cloud (VPC) concepts. It bridges the gap between AWS theoretical knowledge (SAA-C03) and practical implementation using [LocalStack Pro](https://localstack.cloud/) to simulate a complete AWS cloud environment locally.
 
@@ -136,8 +132,6 @@ Based on AWS documentation and best practices, these labs walk through the deplo
 
 # AWS Elastic Compute Cloud (EC2) Labs (LocalStack Pro)
 
-![AWS](https://img.shields.io/badge/AWS-EC2_Compute-FF9900?style=for-the-badge&logo=amazonaws)
-![LocalStack](https://img.shields.io/badge/LocalStack-Pro-000000?style=for-the-badge)
 
 This repository contains hands-on labs demonstrating core Amazon EC2 concepts, from foundational networking and instance provisioning to high availability and automated scaling. Using [LocalStack Pro](https://localstack.cloud/), we simulate a complete AWS compute environment locally.
 
@@ -185,8 +179,6 @@ Based on AWS best practices (SAA-C03), these labs cover:
 
 # AWS Simple Storage Service (S3) Labs (LocalStack Pro)
 
-![AWS](https://img.shields.io/badge/AWS-S3_Storage-FF9900?style=for-the-badge&logo=amazonaws)
-![LocalStack](https://img.shields.io/badge/LocalStack-Pro-000000?style=for-the-badge)
 
 This repository contains hands-on labs demonstrating core Amazon S3 concepts, from foundational storage and data protection to advanced security and lifecycle management. Using [LocalStack Pro](https://localstack.cloud/), we simulate a complete AWS storage environment locally.
 
@@ -236,8 +228,6 @@ Based on AWS best practices (SAA-C03), these labs cover:
 
 # AWS Relational Database Service (RDS) Labs (LocalStack Pro)
 
-![AWS](https://img.shields.io/badge/AWS-RDS_Database-FF9900?style=for-the-badge&logo=amazonaws)
-![LocalStack](https://img.shields.io/badge/LocalStack-Pro-000000?style=for-the-badge)
 
 This repository contains hands-on labs demonstrating core Amazon RDS concepts, from foundational networking and instance provisioning to high availability and data security. Using [LocalStack Pro](https://localstack.cloud/), we simulate a complete AWS database environment locally.
 
@@ -287,8 +277,6 @@ Based on AWS best practices (SAA-C03), these labs cover:
 
 # AWS Lambda Serverless Labs (LocalStack Pro)
 
-![AWS](https://img.shields.io/badge/AWS-Lambda_Compute-FF9900?style=for-the-badge&logo=amazonaws)
-![LocalStack](https://img.shields.io/badge/LocalStack-Pro-000000?style=for-the-badge)
 
 This repository contains hands-on labs demonstrating core Amazon Lambda concepts, from foundational function provisioning to advanced event-driven architectures and triggers. Using [LocalStack Pro](https://localstack.cloud/), we simulate a complete AWS serverless environment locally.
 
@@ -337,8 +325,6 @@ Based on AWS best practices (SAA-C03), these labs cover:
 
 # AWS CloudWatch Monitoring Labs (LocalStack Pro)
 
-![AWS](https://img.shields.io/badge/AWS-CloudWatch_Monitoring-FF9900?style=for-the-badge&logo=amazonaws)
-![LocalStack](https://img.shields.io/badge/LocalStack-Pro-000000?style=for-the-badge)
 
 This repository contains hands-on labs demonstrating core Amazon CloudWatch concepts, from log management and metric filtering to automated alarms and dashboards. Using [LocalStack Pro](https://localstack.cloud/), we simulate a complete AWS monitoring environment locally.
 
@@ -385,8 +371,6 @@ Based on AWS best practices (SAA-C03), these labs cover:
 
 # AWS Elastic Container Service (ECS) Labs (LocalStack Pro)
 
-![AWS](https://img.shields.io/badge/AWS-ECS_Containers-FF9900?style=for-the-badge&logo=amazonaws)
-![LocalStack](https://img.shields.io/badge/LocalStack-Pro-000000?style=for-the-badge)
 
 This repository contains hands-on labs demonstrating core Amazon ECS concepts, from foundational networking and image management to task definitions, services, and high availability. Using [LocalStack Pro](https://localstack.cloud/), we simulate a complete AWS container orchestration environment locally.
 
@@ -439,8 +423,6 @@ Based on AWS best practices (SAA-C03), these labs cover:
 
 # AWS Elastic Kubernetes Service (EKS) Labs (LocalStack Pro)
 
-![AWS](https://img.shields.io/badge/AWS-EKS_Kubernetes-FF9900?style=for-the-badge&logo=amazonaws)
-![LocalStack](https://img.shields.io/badge/LocalStack-Pro-000000?style=for-the-badge)
 
 This repository contains hands-on labs demonstrating core Amazon EKS concepts, from foundational cluster provisioning and networking to node group management, deployments, and security. Using [LocalStack Pro](https://localstack.cloud/), we simulate a complete AWS Kubernetes environment locally.
 
@@ -494,8 +476,6 @@ Based on AWS best practices (SAA-C03), these labs cover:
 
 # AWS API Gateway Serverless Labs (LocalStack Pro)
 
-![AWS](https://img.shields.io/badge/AWS-API_Gateway-FF9900?style=for-the-badge&logo=amazonaws)
-![LocalStack](https://img.shields.io/badge/LocalStack-Pro-000000?style=for-the-badge)
 
 This repository contains hands-on labs demonstrating core Amazon API Gateway concepts, from RESTful API design and Lambda integrations to asynchronous patterns, security, and deployment stages. Using [LocalStack Pro](https://localstack.cloud/), we simulate a complete AWS API management environment locally.
 
@@ -546,8 +526,6 @@ Based on AWS best practices (SAA-C03), these labs cover:
 
 # AWS CI/CD Pipeline Labs (LocalStack Pro)
 
-![AWS](https://img.shields.io/badge/AWS-CI/CD_Pipeline-FF9900?style=for-the-badge&logo=amazonaws)
-![LocalStack](https://img.shields.io/badge/LocalStack-Pro-000000?style=for-the-badge)
 
 This repository contains hands-on labs demonstrating core AWS DevOps concepts, from source control and automated builds to continuous deployment and orchestration. Using [LocalStack Pro](https://localstack.cloud/), we simulate a complete AWS CI/CD environment locally.
 
@@ -599,8 +577,6 @@ Based on AWS best practices (SAA-C03), these labs cover:
 
 # AWS Infrastructure as Code (Terraform) Labs (LocalStack Pro)
 
-![AWS](https://img.shields.io/badge/AWS-Infrastructure_as_Code-FF9900?style=for-the-badge&logo=amazonaws)
-![LocalStack](https://img.shields.io/badge/LocalStack-Pro-000000?style=for-the-badge)
 
 This repository contains hands-on labs demonstrating core Infrastructure as Code (IaC) concepts using HashiCorp Terraform. Using [LocalStack Pro](https://localstack.cloud/) and the `tflocal` wrapper, we simulate a complete AWS environment to practice declarative resource provisioning, state management, and modular design.
 
