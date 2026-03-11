@@ -67,12 +67,12 @@ Based on AWS security best practices (SAA-C03), these labs demonstrate:
 > **Session Persistence:** You must run all commands sequentially within the **same terminal session**. The labs rely on bash variables (like `$USER_NAME`, `$ROLE_ARN`, etc.) created in earlier steps. If you close your terminal, these variables will be lost and subsequent labs will fail.
 
 ## 📚 Labs Index
-1. [Lab 1: IAM Fundamentals (Users, Groups, & Policies)](../iam/labs/lab1-iam-fundamentals/README.md)
-2. [Lab 2: Service Roles & Trust Policies](../iam/labs/lab2-service-roles-trust-policies/README.md)
-3. [Lab 3: Policy Evaluation Logic (Explicit Deny)](../iam/labs/lab3-policy-evaluation-logic/README.md)
-4. [Lab 4: Policy Conditions (Attribute-Based Access Control)](../iam/labs/lab4-policy-conditions/README.md)
-5. [Lab 5: Permissions Boundaries](../iam/labs/lab5-permissions-boundaries/README.md)
-6. [Lab 6: Cross-Account Access & STS AssumeRole](../iam/labs/lab6-cross-account-sts/README.md)
+1. [Lab 1: IAM Fundamentals (Users, Groups, & Policies)]($base_url/labs/lab1-iam-fundamentals/README.md)
+2. [Lab 2: Service Roles & Trust Policies]($base_url/labs/lab2-service-roles-trust-policies/README.md)
+3. [Lab 3: Policy Evaluation Logic (Explicit Deny)]($base_url/labs/lab3-policy-evaluation-logic/README.md)
+4. [Lab 4: Policy Conditions (Attribute-Based Access Control)]($base_url/labs/lab4-policy-conditions/README.md)
+5. [Lab 5: Permissions Boundaries]($base_url/labs/lab5-permissions-boundaries/README.md)
+6. [Lab 6: Cross-Account Access & STS AssumeRole]($base_url/labs/lab6-cross-account-sts/README.md)
 
 
 ---
@@ -123,13 +123,13 @@ Based on AWS documentation and best practices, these labs walk through the deplo
 > **Session Persistence:** You must run all commands sequentially within the **same terminal session**. The labs rely on bash variables (like `$VPC_ID`, `$PRIV_RT`, etc.) created in earlier steps. If you close your terminal, these variables will be lost and subsequent labs will fail.
 
 ## 📚 Labs Index
-1. [Lab 1: Foundational VPC & Subnet Isolation](../vpc/labs/lab1-vpc-subnets/README.md)
-2. [Lab 2: Internet & NAT Gateways](../vpc/labs/lab2-internet-nat-gateways/README.md)
-3. [Lab 3: Secure AWS Access via VPC Endpoints](../vpc/labs/lab3-vpc-endpoints/README.md)
-4. [Lab 4: Defense in Depth (Security Groups vs. NACLs)](../vpc/labs/lab4-security-groups-nacls/README.md)
-5. [Lab 5: 1-to-1 Multi-VPC Architecture (VPC Peering)](../vpc/labs/lab5-vpc-peering/README.md)
-6. [Lab 6: Hub-and-Spoke Topology (AWS Transit Gateway)](../vpc/labs/lab6-transit-gateway/README.md)
-7. [Lab 7: Unidirectional Service Sharing (AWS PrivateLink)](../vpc/labs/lab7-privatelink/README.md)
+1. [Lab 1: Foundational VPC & Subnet Isolation]($base_url/labs/lab1-vpc-subnets/README.md)
+2. [Lab 2: Internet & NAT Gateways]($base_url/labs/lab2-internet-nat-gateways/README.md)
+3. [Lab 3: Secure AWS Access via VPC Endpoints]($base_url/labs/lab3-vpc-endpoints/README.md)
+4. [Lab 4: Defense in Depth (Security Groups vs. NACLs)]($base_url/labs/lab4-security-groups-nacls/README.md)
+5. [Lab 5: 1-to-1 Multi-VPC Architecture (VPC Peering)]($base_url/labs/lab5-vpc-peering/README.md)
+6. [Lab 6: Hub-and-Spoke Topology (AWS Transit Gateway)]($base_url/labs/lab6-transit-gateway/README.md)
+7. [Lab 7: Unidirectional Service Sharing (AWS PrivateLink)]($base_url/labs/lab7-privatelink/README.md)
 
 
 ---
@@ -174,11 +174,11 @@ Based on AWS best practices (SAA-C03), these labs cover:
 > **Session Persistence:** These labs rely on bash variables (like `$VPC_ID`, `$SG_ID`, `$AMI_ID`, etc.). Run all commands in the same terminal session to maintain context.
 
 ## 📚 Labs Index
-1. [Lab 1: Network Foundation & EC2 Provisioning](../ec2/labs/lab1-network-foundation-ec2/README.md)
-2. [Lab 2: Layer 7 Application Load Balancer (ALB)](../ec2/labs/lab2-application-load-balancer/README.md)
-3. [Lab 3: EC2 Auto Scaling (Launch Templates & ASG)](../ec2/labs/lab3-auto-scaling-groups/README.md)
-4. [Lab 4: Auto Scaling Policies (Target Tracking)](../ec2/labs/lab4-auto-scaling-policies/README.md)
-5. [Lab 5: Cost Optimization (Spot Instances)](../ec2/labs/lab5-cost-optimization-spot/README.md)
+1. [Lab 1: Network Foundation & EC2 Provisioning]($base_url/labs/lab1-network-foundation-ec2/README.md)
+2. [Lab 2: Layer 7 Application Load Balancer (ALB)]($base_url/labs/lab2-application-load-balancer/README.md)
+3. [Lab 3: EC2 Auto Scaling (Launch Templates & ASG)]($base_url/labs/lab3-auto-scaling-groups/README.md)
+4. [Lab 4: Auto Scaling Policies (Target Tracking)]($base_url/labs/lab4-auto-scaling-policies/README.md)
+5. [Lab 5: Cost Optimization (Spot Instances)]($base_url/labs/lab5-cost-optimization-spot/README.md)
 
 
 ---
@@ -223,13 +223,13 @@ Based on AWS best practices (SAA-C03), these labs cover:
 > **Cumulative Architecture:** These labs are designed as a cumulative scenario. You are building an evolving storage infrastructure.
 
 ## 📚 Labs Index
-1. [Lab 1: Foundational S3 & Data Protection (Versioning)](../s3/labs/lab1-s3-versioning/README.md)
-2. [Lab 2: Compliance & Security (SSE-KMS & Object Lock)](../s3/labs/lab2-s3-compliance-kms/README.md)
-3. [Lab 3: Automated Cost Optimization (Lifecycle Policies)](../s3/labs/lab3-s3-lifecycle-policies/README.md)
-4. [Lab 4: Event-Driven Architectures (S3 Event Notifications to SQS)](../s3/labs/lab4-s3-event-notifications/README.md)
-5. [Lab 5: Secure Third-Party Access (Pre-signed URLs)](../s3/labs/lab5-s3-presigned-urls/README.md)
-6. [Lab 6: Content Delivery & Edge Caching (CloudFront Origin)](../s3/labs/lab6-s3-cloudfront/README.md)
-7. [Lab 7: Disaster Recovery (Cross-Region Replication)](../s3/labs/lab7-s3-replication/README.md)
+1. [Lab 1: Foundational S3 & Data Protection (Versioning)]($base_url/labs/lab1-s3-versioning/README.md)
+2. [Lab 2: Compliance & Security (SSE-KMS & Object Lock)]($base_url/labs/lab2-s3-compliance-kms/README.md)
+3. [Lab 3: Automated Cost Optimization (Lifecycle Policies)]($base_url/labs/lab3-s3-lifecycle-policies/README.md)
+4. [Lab 4: Event-Driven Architectures (S3 Event Notifications to SQS)]($base_url/labs/lab4-s3-event-notifications/README.md)
+5. [Lab 5: Secure Third-Party Access (Pre-signed URLs)]($base_url/labs/lab5-s3-presigned-urls/README.md)
+6. [Lab 6: Content Delivery & Edge Caching (CloudFront Origin)]($base_url/labs/lab6-s3-cloudfront/README.md)
+7. [Lab 7: Disaster Recovery (Cross-Region Replication)]($base_url/labs/lab7-s3-replication/README.md)
 
 
 ---
@@ -275,12 +275,12 @@ Based on AWS best practices (SAA-C03), these labs cover:
 > **Session Persistence:** These labs rely on bash variables (like `$VPC_ID`, `$SUBNET_A`, etc.). Run all commands in the same terminal session to maintain context.
 
 ## 📚 Labs Index
-1. [Lab 1: Networking Foundation & Base RDS Deployment](../rds/labs/lab1-rds-networking-foundation/README.md)
-2. [Lab 2: High Availability (Multi-AZ Conversion)](../rds/labs/lab2-rds-high-availability/README.md)
-3. [Lab 3: Backup & Retention Policies](../rds/labs/lab3-rds-backup-retention/README.md)
-4. [Lab 4: Advanced Security (Encryption & IAM Auth)](../rds/labs/lab4-rds-security-encryption/README.md)
-5. [Lab 5: Serverless Workloads (Aurora Serverless)](../rds/labs/lab5-rds-aurora-serverless/README.md)
-6. [Lab 6: Serverless Connection Pooling (RDS Proxy)](../rds/labs/lab6-rds-proxy/README.md)
+1. [Lab 1: Networking Foundation & Base RDS Deployment]($base_url/labs/lab1-rds-networking-foundation/README.md)
+2. [Lab 2: High Availability (Multi-AZ Conversion)]($base_url/labs/lab2-rds-high-availability/README.md)
+3. [Lab 3: Backup & Retention Policies]($base_url/labs/lab3-rds-backup-retention/README.md)
+4. [Lab 4: Advanced Security (Encryption & IAM Auth)]($base_url/labs/lab4-rds-security-encryption/README.md)
+5. [Lab 5: Serverless Workloads (Aurora Serverless)]($base_url/labs/lab5-rds-aurora-serverless/README.md)
+6. [Lab 6: Serverless Connection Pooling (RDS Proxy)]($base_url/labs/lab6-rds-proxy/README.md)
 
 
 ---
@@ -326,11 +326,11 @@ Based on AWS best practices (SAA-C03), these labs cover:
 > **Session Persistence:** These labs rely on bash variables (like `$ROLE_ARN`, `$QUEUE_URL`, `$LAYER_ARN`, `$VERSION`). Run all commands in the same terminal session to maintain context.
 
 ## 📚 Labs Index
-1. [Lab 1: Foundational Lambda Provisioning](../lambda/labs/lab1-lambda-provisioning/README.md)
-2. [Lab 2: Synchronous Web Access (Function URLs)](../lambda/labs/lab2-lambda-function-urls/README.md)
-3. [Lab 3: Asynchronous Polling (SQS Event Source Mapping)](../lambda/labs/lab3-lambda-sqs-trigger/README.md)
-4. [Lab 4: Code Reusability (Lambda Layers)](../lambda/labs/lab4-lambda-layers/README.md)
-5. [Lab 5: Safe Deployments (Versions, Aliases & Concurrency)](../lambda/labs/lab5-lambda-deployments/README.md)
+1. [Lab 1: Foundational Lambda Provisioning]($base_url/labs/lab1-lambda-provisioning/README.md)
+2. [Lab 2: Synchronous Web Access (Function URLs)]($base_url/labs/lab2-lambda-function-urls/README.md)
+3. [Lab 3: Asynchronous Polling (SQS Event Source Mapping)]($base_url/labs/lab3-lambda-sqs-trigger/README.md)
+4. [Lab 4: Code Reusability (Lambda Layers)]($base_url/labs/lab4-lambda-layers/README.md)
+5. [Lab 5: Safe Deployments (Versions, Aliases & Concurrency)]($base_url/labs/lab5-lambda-deployments/README.md)
 
 
 ---
@@ -374,11 +374,11 @@ Based on AWS best practices (SAA-C03), these labs cover:
 > **Cumulative Architecture:** These labs are designed as a cumulative scenario. You are building an evolving monitoring infrastructure.
 
 ## 📚 Labs Index
-1. [Lab 1: CloudWatch Logs & Metric Filters](../cloudwatch/labs/lab1-cloudwatch-logs/README.md)
-2. [Lab 2: Automated Alerting (CloudWatch Alarms & SNS)](../cloudwatch/labs/lab2-cloudwatch-alarms/README.md)
-3. [Lab 3: API Auditing with AWS CloudTrail](../cloudwatch/labs/lab3-cloudwatch-audit/README.md)
-4. [Lab 4: Continuous Compliance (AWS Config)](../cloudwatch/labs/lab4-cloudwatch-config/README.md)
-5. [Lab 5: Secure Operations (Systems Manager Parameter Store)](../cloudwatch/labs/lab5-cloudwatch-ssm/README.md)
+1. [Lab 1: CloudWatch Logs & Metric Filters]($base_url/labs/lab1-cloudwatch-logs/README.md)
+2. [Lab 2: Automated Alerting (CloudWatch Alarms & SNS)]($base_url/labs/lab2-cloudwatch-alarms/README.md)
+3. [Lab 3: API Auditing with AWS CloudTrail]($base_url/labs/lab3-cloudwatch-audit/README.md)
+4. [Lab 4: Continuous Compliance (AWS Config)]($base_url/labs/lab4-cloudwatch-config/README.md)
+5. [Lab 5: Secure Operations (Systems Manager Parameter Store)]($base_url/labs/lab5-cloudwatch-ssm/README.md)
 
 
 ---
@@ -426,13 +426,13 @@ Based on AWS best practices (SAA-C03), these labs cover:
 > **Session Persistence:** These labs rely on bash variables (like `$VPC_ID`, `$TASK_SG`, `$TASK_DEF_ARN`, `$TG_ARN`, etc.). Run all commands in the same terminal session to maintain context.
 
 ## 📚 Labs Index
-1. [Lab 1: Networking Foundation & ECR Registry](../ecs/labs/lab1-ecs-foundation/README.md)
-2. [Lab 2: IAM Role Separation (Execution vs. Task Roles)](../ecs/labs/lab2-ecs-iam-roles/README.md)
-3. [Lab 3: ECS Cluster & Task Definitions (awsvpc mode)](../ecs/labs/lab3-ecs-task-definitions/README.md)
-4. [Lab 4: Running Standalone Tasks (Fargate)](../ecs/labs/lab4-ecs-standalone-tasks/README.md)
-5. [Lab 5: Application Load Balancer Integration (IP Targets)](../ecs/labs/lab5-ecs-alb-integration/README.md)
-6. [Lab 6: ECS Long-Running Services](../ecs/labs/lab6-ecs-services/README.md)
-7. [Lab 7: Service Auto Scaling (Target Tracking)](../ecs/labs/lab7-ecs-auto-scaling/README.md)
+1. [Lab 1: Networking Foundation & ECR Registry]($base_url/labs/lab1-ecs-foundation/README.md)
+2. [Lab 2: IAM Role Separation (Execution vs. Task Roles)]($base_url/labs/lab2-ecs-iam-roles/README.md)
+3. [Lab 3: ECS Cluster & Task Definitions (awsvpc mode)]($base_url/labs/lab3-ecs-task-definitions/README.md)
+4. [Lab 4: Running Standalone Tasks (Fargate)]($base_url/labs/lab4-ecs-standalone-tasks/README.md)
+5. [Lab 5: Application Load Balancer Integration (IP Targets)]($base_url/labs/lab5-ecs-alb-integration/README.md)
+6. [Lab 6: ECS Long-Running Services]($base_url/labs/lab6-ecs-services/README.md)
+7. [Lab 7: Service Auto Scaling (Target Tracking)]($base_url/labs/lab7-ecs-auto-scaling/README.md)
 
 
 ---
@@ -481,13 +481,13 @@ Based on AWS best practices (SAA-C03), these labs cover:
 > **Session Persistence:** These labs rely on bash variables (like `$VPC_ID`, `$CLUSTER_ROLE_ARN`, `$OIDC_URL`, etc.). Run all commands in the same terminal session to maintain context.
 
 ## 📚 Labs Index
-1. [Lab 1: Network Foundation & Control Plane](../eks/labs/lab1-eks-foundation/README.md)
-2. [Lab 2: Data Plane (Managed Node Groups)](../eks/labs/lab2-eks-nodegroups/README.md)
-3. [Lab 3: Serverless Data Plane (Fargate Profiles)](../eks/labs/lab3-eks-fargate-profiles/README.md)
-4. [Lab 4: Security Identity (OIDC & IRSA)](../eks/labs/lab4-eks-irsa/README.md)
-5. [Lab 5: Cluster Add-ons Management (VPC CNI)](../eks/labs/lab5-eks-addons/README.md)
-6. [Lab 6: Modern Access Management (Access Entries)](../eks/labs/lab6-eks-access-management/README.md)
-7. [Lab 7: Connecting to the Cluster (kubeconfig)](../eks/labs/lab7-eks-kubeconfig/README.md)
+1. [Lab 1: Network Foundation & Control Plane]($base_url/labs/lab1-eks-foundation/README.md)
+2. [Lab 2: Data Plane (Managed Node Groups)]($base_url/labs/lab2-eks-nodegroups/README.md)
+3. [Lab 3: Serverless Data Plane (Fargate Profiles)]($base_url/labs/lab3-eks-fargate-profiles/README.md)
+4. [Lab 4: Security Identity (OIDC & IRSA)]($base_url/labs/lab4-eks-irsa/README.md)
+5. [Lab 5: Cluster Add-ons Management (VPC CNI)]($base_url/labs/lab5-eks-addons/README.md)
+6. [Lab 6: Modern Access Management (Access Entries)]($base_url/labs/lab6-eks-access-management/README.md)
+7. [Lab 7: Connecting to the Cluster (kubeconfig)]($base_url/labs/lab7-eks-kubeconfig/README.md)
 
 
 ---
@@ -533,13 +533,13 @@ Based on AWS best practices (SAA-C03), these labs cover:
 > **Session Persistence:** These labs rely on bash variables (like `$API_ID`, `$LAMBDA_ARN`, `$VALIDATOR_ID`, `$PLAN_ID`, etc.). Run all commands in the same terminal session to maintain context.
 
 ## 📚 Labs Index
-1. [Lab 1: Foundational API & Synchronous Lambda](../apigateway/labs/lab1-api-lambda-sync/README.md)
-2. [Lab 2: Storage-First Pattern (Direct SQS Integration)](../apigateway/labs/lab2-api-sqs-async/README.md)
-3. [Lab 3: Fan-Out Webhooks (Direct SNS Integration)](../apigateway/labs/lab3-api-sns-fanout/README.md)
-4. [Lab 4: Event Routing (Direct EventBridge Integration)](../apigateway/labs/lab4-api-eventbridge/README.md)
-5. [Lab 5: Payload Edge Validation](../apigateway/labs/lab5-api-validation/README.md)
-6. [Lab 6: API Deployments & Stages](../apigateway/labs/lab6-api-deployments/README.md)
-7. [Lab 7: Monetization & Security (API Keys & Throttling)](../apigateway/labs/lab7-api-keys-throttling/README.md)
+1. [Lab 1: Foundational API & Synchronous Lambda]($base_url/labs/lab1-api-lambda-sync/README.md)
+2. [Lab 2: Storage-First Pattern (Direct SQS Integration)]($base_url/labs/lab2-api-sqs-async/README.md)
+3. [Lab 3: Fan-Out Webhooks (Direct SNS Integration)]($base_url/labs/lab3-api-sns-fanout/README.md)
+4. [Lab 4: Event Routing (Direct EventBridge Integration)]($base_url/labs/lab4-api-eventbridge/README.md)
+5. [Lab 5: Payload Edge Validation]($base_url/labs/lab5-api-validation/README.md)
+6. [Lab 6: API Deployments & Stages]($base_url/labs/lab6-api-deployments/README.md)
+7. [Lab 7: Monetization & Security (API Keys & Throttling)]($base_url/labs/lab7-api-keys-throttling/README.md)
 
 
 ---
@@ -586,13 +586,13 @@ Based on AWS best practices (SAA-C03), these labs cover:
 > **Session Persistence:** These labs rely on bash variables (like `$BUILD_ROLE`, `$PIPELINE_ROLE`, `$DEPLOY_ROLE`, etc.). Run all commands in the same terminal session to maintain context.
 
 ## 📚 Labs Index
-1. [Lab 1: Source Control (AWS CodeCommit)](../cicd/labs/lab1-codecommit-repo/README.md)
-2. [Lab 2: Artifact Storage & IAM Foundations](../cicd/labs/lab2-artifacts-iam/README.md)
-3. [Lab 3: Continuous Integration (AWS CodeBuild)](../cicd/labs/lab3-codebuild-project/README.md)
-4. [Lab 4: Provisioning Deployment Targets (EC2)](../cicd/labs/lab4-ec2-deployment-target/README.md)
-5. [Lab 5: Continuous Deployment (AWS CodeDeploy)](../cicd/labs/lab5-codedeploy-setup/README.md)
-6. [Lab 6: Pipeline Orchestration (AWS CodePipeline)](../cicd/labs/lab6-codepipeline-orchestration/README.md)
-7. [Lab 7: Pipeline Execution & Monitoring](../cicd/labs/lab7-pipeline-monitoring/README.md)
+1. [Lab 1: Source Control (AWS CodeCommit)]($base_url/labs/lab1-codecommit-repo/README.md)
+2. [Lab 2: Artifact Storage & IAM Foundations]($base_url/labs/lab2-artifacts-iam/README.md)
+3. [Lab 3: Continuous Integration (AWS CodeBuild)]($base_url/labs/lab3-codebuild-project/README.md)
+4. [Lab 4: Provisioning Deployment Targets (EC2)]($base_url/labs/lab4-ec2-deployment-target/README.md)
+5. [Lab 5: Continuous Deployment (AWS CodeDeploy)]($base_url/labs/lab5-codedeploy-setup/README.md)
+6. [Lab 6: Pipeline Orchestration (AWS CodePipeline)]($base_url/labs/lab6-codepipeline-orchestration/README.md)
+7. [Lab 7: Pipeline Execution & Monitoring]($base_url/labs/lab7-pipeline-monitoring/README.md)
 
 
 ---
@@ -639,13 +639,13 @@ Based on AWS best practices (SAA-C03), these labs cover:
 > **Cumulative Architecture:** These labs are designed as a cumulative scenario. You are building an evolving infrastructure stack.
 
 ## 📚 Labs Index
-1. [Lab 1: Provider Setup & Foundational Networking](../terraform/labs/lab1-terraform-foundation/README.md)
-2. [Lab 2: Dynamic Data Sources & Compute](../terraform/labs/lab2-terraform-compute/README.md)
-3. [Lab 3: Variables, Tfvars, and Outputs](../terraform/labs/lab3-terraform-variables/README.md)
-4. [Lab 4: IAM & Security as Code](../terraform/labs/lab4-terraform-iam/README.md)
-5. [Lab 5: Advanced Networking (Load Balancers)](../terraform/labs/lab5-terraform-alb/README.md)
-6. [Lab 6: Modularity & Advanced State Routing (Native Terraform)](../terraform/labs/lab6-terraform-modularity/README.md)
-7. [Lab 7: Remote State Architecture](../terraform/labs/lab7-terraform-state/README.md)
+1. [Lab 1: Provider Setup & Foundational Networking]($base_url/labs/lab1-terraform-foundation/README.md)
+2. [Lab 2: Dynamic Data Sources & Compute]($base_url/labs/lab2-terraform-compute/README.md)
+3. [Lab 3: Variables, Tfvars, and Outputs]($base_url/labs/lab3-terraform-variables/README.md)
+4. [Lab 4: IAM & Security as Code]($base_url/labs/lab4-terraform-iam/README.md)
+5. [Lab 5: Advanced Networking (Load Balancers)]($base_url/labs/lab5-terraform-alb/README.md)
+6. [Lab 6: Modularity & Advanced State Routing (Native Terraform)]($base_url/labs/lab6-terraform-modularity/README.md)
+7. [Lab 7: Remote State Architecture]($base_url/labs/lab7-terraform-state/README.md)
 
 
 ---
