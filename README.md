@@ -47,20 +47,17 @@ Based on AWS security best practices (SAA-C03), these labs demonstrate:
    ```bash
    git clone https://github.com/awslabs/iam.git
    cd iam
-   
-```
+   ```
 
 2. Configure your LocalStack Auth Token:
    ```bash
    echo "YOUR_TOKEN=your_auth_token_here" > .env
-   
-```
+   ```
 
 3. Start LocalStack Pro:
    ```bash
    docker-compose up -d
-   
-```
+   ```
 
 > [!IMPORTANT]
 > **Cumulative Architecture:** These labs are designed as a cumulative, end-to-end scenario rather than isolated tasks. You are building one evolving architecture as you progress.
@@ -104,20 +101,17 @@ Based on AWS documentation and best practices, these labs walk through the deplo
    ```bash
    git clone https://github.com/awslabs/vpc.git
    cd vpc
-   
-```
+   ```
 
 2. Configure your LocalStack Auth Token:
    ```bash
    echo "YOUR_TOKEN=your_auth_token_here" > .env
-   
-```
+   ```
 
 3. Start LocalStack Pro:
    ```bash
    docker-compose up -d
-   
-```
+   ```
 
 > [!IMPORTANT]
 > **Cumulative Architecture:** These labs are designed as a cumulative, end-to-end scenario rather than isolated tasks. You are building one evolving architecture as you progress.
@@ -161,14 +155,12 @@ Based on AWS best practices (SAA-C03), these labs cover:
 1. Configure your LocalStack Auth Token in `.env`:
    ```bash
    echo "YOUR_TOKEN=your_auth_token_here" > .env
-   
-```
+   ```
 
 2. Start LocalStack Pro:
    ```bash
    docker-compose up -d
-   
-```
+   ```
 
 > [!IMPORTANT]
 > **Cumulative Architecture:** These labs are designed as a cumulative scenario. You are building an evolving infrastructure.
@@ -212,14 +204,12 @@ Based on AWS best practices (SAA-C03), these labs cover:
 1. Configure your LocalStack Auth Token in `.env`:
    ```bash
    echo "YOUR_TOKEN=your_auth_token_here" > .env
-   
-```
+   ```
 
 2. Start LocalStack Pro:
    ```bash
    docker-compose up -d
-   
-```
+   ```
 
 > [!IMPORTANT]
 > **Cumulative Architecture:** These labs are designed as a cumulative scenario. You are building an evolving storage infrastructure.
@@ -262,14 +252,12 @@ Based on AWS best practices (SAA-C03), these labs cover:
 1. Configure your LocalStack Auth Token in `.env`:
    ```bash
    echo "YOUR_TOKEN=your_auth_token_here" > .env
-   
-```
+   ```
 
 2. Start LocalStack Pro:
    ```bash
    docker-compose up -d
-   
-```
+   ```
 
 > [!IMPORTANT]
 > **Cumulative Architecture:** These labs are designed as a cumulative scenario. You are building an evolving database infrastructure.
@@ -313,14 +301,12 @@ Based on AWS best practices (SAA-C03), these labs cover:
 1. Configure your LocalStack Auth Token in `.env`:
    ```bash
    echo "YOUR_TOKEN=your_auth_token_here" > .env
-   
-```
+   ```
 
 2. Start LocalStack Pro:
    ```bash
    docker-compose up -d
-   
-```
+   ```
 
 > [!IMPORTANT]
 > **Cumulative Architecture:** These labs are designed as a cumulative scenario. You are building an evolving serverless infrastructure.
@@ -363,14 +349,12 @@ Based on AWS best practices (SAA-C03), these labs cover:
 1. Configure your LocalStack Auth Token in `.env`:
    ```bash
    echo "YOUR_TOKEN=your_auth_token_here" > .env
-   
-```
+   ```
 
 2. Start LocalStack Pro:
    ```bash
    docker-compose up -d
-   
-```
+   ```
 
 > [!IMPORTANT]
 > **Cumulative Architecture:** These labs are designed as a cumulative scenario. You are building an evolving monitoring infrastructure.
@@ -413,14 +397,12 @@ Based on AWS best practices (SAA-C03), these labs cover:
 1. Configure your LocalStack Auth Token in `.env`:
    ```bash
    echo "YOUR_TOKEN=your_auth_token_here" > .env
-   
-```
+   ```
 
 2. Start LocalStack Pro:
    ```bash
    docker-compose up -d
-   
-```
+   ```
 
 > [!IMPORTANT]
 > **Cumulative Architecture:** These labs are designed as a cumulative scenario. You are building an evolving containerized infrastructure.
@@ -468,14 +450,12 @@ Based on AWS best practices (SAA-C03), these labs cover:
 1. Configure your LocalStack Auth Token in `.env`:
    ```bash
    echo "YOUR_TOKEN=your_auth_token_here" > .env
-   
-```
+   ```
 
 2. Start LocalStack Pro:
    ```bash
    docker-compose up -d
-   
-```
+   ```
 
 > [!IMPORTANT]
 > **Cumulative Architecture:** These labs are designed as a cumulative scenario. You are building an evolving Kubernetes infrastructure.
@@ -520,14 +500,12 @@ Based on AWS best practices (SAA-C03), these labs cover:
 1. Configure your LocalStack Auth Token in `.env`:
    ```bash
    echo "YOUR_TOKEN=your_auth_token_here" > .env
-   
-```
+   ```
 
 2. Start LocalStack Pro:
    ```bash
    docker-compose up -d
-   
-```
+   ```
 
 > [!IMPORTANT]
 > **Cumulative Architecture:** These labs are designed as a cumulative scenario. You are building an evolving API infrastructure.
@@ -573,14 +551,12 @@ Based on AWS best practices (SAA-C03), these labs cover:
 1. Configure your LocalStack Auth Token in `.env`:
    ```bash
    echo "YOUR_TOKEN=your_auth_token_here" > .env
-   
-```
+   ```
 
 2. Start LocalStack Pro:
    ```bash
    docker-compose up -d
-   
-```
+   ```
 
 > [!IMPORTANT]
 > **Cumulative Architecture:** These labs are designed as a cumulative scenario. You are building an evolving CI/CD infrastructure.
@@ -628,14 +604,12 @@ Based on AWS best practices (SAA-C03), these labs cover:
 1. Configure your LocalStack Auth Token in `.env`:
    ```bash
    echo "YOUR_TOKEN=your_auth_token_here" > .env
-   
-```
+   ```
 
 2. Start LocalStack Pro:
    ```bash
    docker-compose up -d
-   
-```
+   ```
 
 > [!IMPORTANT]
 > **Cumulative Architecture:** These labs are designed as a cumulative scenario. You are building an evolving infrastructure stack.
